@@ -19,7 +19,7 @@
     <p><a href="lifetracker-privacy_policy.html">English version</a></p>
 
     <h1>Polityka prywatności</h1>
-    <p>Obowiązuje od: 2026-09-24</p>
+    <p>Obowiązuje od: 2026-09-26</p>
 
     <p>Ta polityka opisuje, co z Twoimi danymi robi aplikacja mobilna Życiomierz na Androida i iOS (po angielsku
         „Life Tracker”, dalej „Aplikacja”). Aplikację tworzy i udostępnia bezpłatnie Michał Karpiuk, niezależny
@@ -75,6 +75,10 @@
         wydajność, typ urządzenia i systemu, przybliżony kraj ustalony na podstawie adresu IP oraz identyfikator
         instancji Aplikacji. Służą wyłącznie do zrozumienia, jak Aplikacja jest używana, i do jej ulepszania. Nie są
         używane do reklam.</p>
+    <p>Aplikacja korzysta z Firebase Remote Config, który pobiera z Firebase jej ustawienia i przełączniki funkcji,
+        żeby daną funkcję można było włączyć albo wyłączyć bez wydawania nowej wersji. Przy pobieraniu Aplikacja
+        wysyła identyfikator instalacji Firebase i podstawowe dane techniczne (wersję Aplikacji, wersję systemu,
+        język urządzenia). Remote Config nie wysyła nic o Twoich zapisach ani o koncie.</p>
 
     <h3>2.5 Eksport danych</h3>
     <p>„Eksportuj dane” tworzy plik z Twoimi danymi na urządzeniu. Aplikacja nigdzie go nie wysyła; co z nim
@@ -84,7 +88,7 @@
     <ul>
         <li>Przechowywanie i synchronizacja zapisów oraz obsługa konta: wykonanie usługi, o którą prosisz
             (art. 6 ust. 1 lit. b RODO).</li>
-        <li>Raporty awarii, statystyki użycia i dane o wydajności: prawnie uzasadniony interes Twórcy, czyli
+        <li>Raporty awarii, statystyki użycia, dane o wydajności i Remote Config: prawnie uzasadniony interes Twórcy, czyli
             niezawodność i rozwój Aplikacji (art. 6 ust. 1 lit. f RODO). Możesz w każdej chwili wnieść sprzeciw,
             a raporty awarii wyłączyć w Ustawieniach.</li>
         <li>Odczyt zdjęć: wyłącznie po udzieleniu uprawnienia systemowego.</li>
@@ -95,7 +99,7 @@
         Aplikacja korzysta z tych dostawców, którzy przetwarzają dane w imieniu Twórcy:</p>
     <ul>
         <li>Google LLC / Google Ireland Ltd - Firebase Authentication, Cloud Firestore, Crashlytics, Google Analytics
-            dla Firebase, Performance Monitoring (<a href="https://firebase.google.com/support/privacy"
+            dla Firebase, Performance Monitoring, Remote Config (<a href="https://firebase.google.com/support/privacy"
                 target="_blank" rel="noopener noreferrer">informacje o prywatności w Firebase</a>,
             <a href="https://policies.google.com/privacy?hl=pl" target="_blank" rel="noopener noreferrer">Polityka
                 prywatności Google</a>);</li>

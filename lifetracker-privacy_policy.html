@@ -19,7 +19,7 @@
     <p><a href="lifetracker-privacy_policy-pl.html">Polska wersja</a></p>
 
     <h1>Privacy Policy</h1>
-    <p>Effective date: 2026-09-24</p>
+    <p>Effective date: 2026-09-26</p>
 
     <p>This privacy policy explains how the Life Tracker mobile app for Android and iOS (called "Życiomierz" in Polish,
         hereafter the "App") handles your data. The App is developed and provided free of charge by Michał Karpiuk,
@@ -75,6 +75,10 @@
         device and operating system type, approximate country derived from the IP address, and an app instance
         identifier. This data is used only to understand how the App is used and to improve it. It is not used for
         advertising.</p>
+    <p>The App uses Firebase Remote Config to download its settings and feature flags from Firebase, so that a
+        feature can be switched on or off without a new release. To fetch them, the App sends a Firebase installation
+        identifier together with basic technical data (App version, operating system version, device language).
+        Remote Config sends nothing about your records or your account.</p>
 
     <h3>2.5 Data export</h3>
     <p>"Export data" creates a file with your data on your device. The App does not send that file anywhere; where
@@ -84,7 +88,7 @@
     <ul>
         <li>Storing and synchronising your records and running your account: to provide the service you asked for
             (Art. 6(1)(b) GDPR).</li>
-        <li>Crash reports, usage statistics and performance data: the Developer's legitimate interest in keeping the
+        <li>Crash reports, usage statistics, performance data and Remote Config: the Developer's legitimate interest in keeping the
             App reliable and improving it (Art. 6(1)(f) GDPR). You can object at any time, for crash reports by
             switching them off in Settings.</li>
         <li>Reading your photos: only after you grant the system permission.</li>
@@ -95,7 +99,7 @@
         App relies on these service providers, which process data on the Developer's behalf:</p>
     <ul>
         <li>Google LLC / Google Ireland Ltd - Firebase Authentication, Cloud Firestore, Crashlytics, Google Analytics
-            for Firebase, Performance Monitoring (<a href="https://firebase.google.com/support/privacy"
+            for Firebase, Performance Monitoring, Remote Config (<a href="https://firebase.google.com/support/privacy"
                 target="_blank" rel="noopener noreferrer">Firebase privacy information</a>,
             <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy
                 Policy</a>);</li>
